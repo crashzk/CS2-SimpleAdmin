@@ -1,39 +1,41 @@
-{GREEN}[ CS2-SimpleAdmin HELP ]{DEFAULT}
-- css_who <#userid or name>  - Display informations about player
-- css_players - Display player list
-- css_ban <#userid or name> [time in minutes/0 perm] [reason] - Ban player
-- css_addban <steamid> [time in minutes/0 perm] [reason] - Ban player via steamid64
-- css_banip <ip> [time in minutes/0 perm] [reason] - Ban player via IP address
-- css_unban <steamid or name or ip> - Unban player
-- css_kick <#userid or name> [reason] - Kick player
-- css_gag <#userid or name> [time in minutes/0 perm] [reason] - Gag player
-- css_addgag <steamid> [time in minutes/0 perm] [reason] - Gag player via steamid64
-- css_unmute <steamid or name> - Ungag player
-- css_mute <#userid or name> [time in minutes/0 perm] [reason] - Mute player
-- css_addmute <steamid> [time in minutes/0 perm] [reason] - Mute player via steamid64
-- css_give <#userid or name> <weapon> - Give player a weapon
-- css_strip <#userid or name> <weapon> - Takes all of the player weapons
-- css_hp <#userid or name> [health] - Set player health
-- css_speed <#userid or name> [speed] - Set player speed
-- css_gravity <#userid or name> [gravity] - Set player gravity
-- css_money <#userid or name> [money] - Set player money
-- css_god <#userid or name> - Toggle player godmode
-- css_slay <#userid or name> - Kill player
-- css_slap <#userid or name> [damage] - Slap player
-- css_vote <'Question?'> ['Answer1'] ['Answer2'] ... - Create vote
-- css_map <mapname> - Change map
-- css_wsmap <name or id> - Change workshop map
-- css_asay <message> - Say message to all admins
-- css_say <message> - Say message as admin in chat
-- css_psay <#userid or name> <message> - Sends private message to player
-- css_csay <message> - Say message as admin in center
-- css_hsay <message> - Say message as admin in hud
-- css_noclip <#userid or name> - Toggle noclip for player
-- css_freeze <#userid or name> [duration] - Freeze player
-- css_unfreeze <#userid or name> - Unfreeze player
-- css_respawn <#userid or name> - Respawn player
-- css_cvar <cvar> <value> - Change cvar value
-- css_rcon <command> - Run command as server
-
-{Green}This is a sample admin_help.txt file
-{LightRed}Write all useful information for admins here
+﻿﻿[ {DARKRED}ADMIN HELP {DEFAULT}]
+{GREEN}- css_who <#userid or name> - {DEFAULT}Display informations about player
+{GREEN}- css_players - {DEFAULT}Display player list
+{GREEN}- css_ban <#userid or name> [time in minutes/0 perm] [reason] - {DEFAULT}Ban player
+{GREEN}- css_addban <steamid> [time in minutes/0 perm] [reason] - {DEFAULT}Ban player via steamid64
+{GREEN}- css_banip <ip> [time in minutes/0 perm] [reason] - {DEFAULT}Ban player via IP address
+{GREEN}- css_unban <steamid or name or ip> - {DEFAULT}Unban player
+{GREEN}- css_kick <#userid or name> [reason] - {DEFAULT}Kick player
+{GREEN}- css_gag <#userid or name> [time in minutes/0 perm] [reason] - {DEFAULT}Gag player
+{GREEN}- css_addgag <steamid> [time in minutes/0 perm] [reason] - {DEFAULT}Gag player via steamid64
+{GREEN}- css_ungag <steamid or name> - {DEFAULT}Ungag player
+{GREEN}- css_mute <#userid or name> [time in minutes/0 perm] [reason] - {DEFAULT}Mute player
+{GREEN}- css_addmute <steamid> [time in minutes/0 perm] [reason] - {DEFAULT}Mute player via steamid64
+{GREEN}- css_unmute <steamid or name> - {DEFAULT}Unmute player
+{GREEN}- css_silence <#userid or name> [time in minutes/0 perm] [reason] - {DEFAULT}Silence player
+{GREEN}- css_addsilence <steamid> [time in minutes/0 perm] [reason] - {DEFAULT}Silence player via steamid64
+{GREEN}- css_unsilence <steamid or name> - {DEFAULT}Unsilence player
+{GREEN}- css_give <#userid or name> <weapon> - {DEFAULT}Give player a weapon
+{GREEN}- css_strip <#userid or name> <weapon> - {DEFAULT}Takes all of the player weapons
+{GREEN}- css_hp <#userid or name> [health] - {DEFAULT}Set player health
+{GREEN}- css_speed <#userid or name> [speed] - {DEFAULT}Set player speed
+{GREEN}- css_gravity <#userid or name> [gravity] - {DEFAULT}Set player gravity
+{GREEN}- css_size <command> - {DEFAULT}Change player size
+{GREEN}- css_money <#userid or name> [money] - {DEFAULT}Set player money
+{GREEN}- css_slay <#userid or name> - {DEFAULT}Kill player
+{GREEN}- css_slap <#userid or name> [damage] - {DEFAULT}Slap player
+{GREEN}- css_vote <'Question?'> ['Answer1'] ['Answer2'] ... - {DEFAULT}Create vote
+{GREEN}- css_map <mapname> - {DEFAULT}Change map
+{GREEN}- css_wsmap <name or id> - {DEFAULT}Change workshop map
+{GREEN}- css_asay <message> - {DEFAULT}Say message to all admins
+{GREEN}- css_say <message> - {DEFAULT}Say message as admin in chat
+{GREEN}- css_psay <#userid or name> <message> - {DEFAULT}Sends private message to player
+{GREEN}- css_csay <message> - {DEFAULT}Say message as admin in center
+{GREEN}- css_hsay <message> - {DEFAULT}Say message as admin in hud
+{GREEN}- css_noclip <#userid or name> - {DEFAULT}Toggle noclip for player
+{GREEN}- css_god <#userid or name> - {DEFAULT}Toggle godmode for player
+{GREEN}- css_freeze <#userid or name> [duration] - {DEFAULT}Freeze player
+{GREEN}- css_unfreeze <#userid or name> - {DEFAULT}Unfreeze player
+{GREEN}- css_respawn <#userid or name> - {DEFAULT}Respawn player
+{GREEN}- css_cvar <cvar> <value> - {DEFAULT}Change cvar value
+{GREEN}- css_rcon <command> - {DEFAULT}Run command as server
