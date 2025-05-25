@@ -1,6 +1,6 @@
 {
-	"sa_title": "SimpleAdmin",
-	"sa_prefix": "{lightred}[SA] {default}",
+	"sa_title": "Admin Menu",
+	"sa_prefix": "[ {darkred}ADMIN {default}] ",
 	
 	"sa_unknown": "Brak",
 	"sa_no_permission": "Nie masz uprawnień do korzystania z tej komendy.",
