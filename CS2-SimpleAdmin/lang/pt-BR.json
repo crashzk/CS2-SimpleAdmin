@@ -65,19 +65,18 @@
 	"sa_discord_penalty_unknown": "Desconhecido registrado",
 
 	"sa_player_penalty_chat_active": "{darkred}Seu chat está bloqueado para: {grey}{0}",
-
 	"sa_player_penalty_info_active_mute": "➔ Mute [{darkred}❌{default}] - Expira [{darkred}{0}{default}]",
 	"sa_player_penalty_info_active_gag": "➔ Gag [{darkred}❌{default}] - Expira [{darkred}{0}{default}]",
 	"sa_player_penalty_info_active_silence": "➔ Silence [{darkred}❌{default}] - Expira [{darkred}{0}{default}]",
 	"sa_player_penalty_info_active_warn": "➔ Aviso [{darkred}❌{default}] - Expira [{darkred}{0}{default}] - Razão [{darkred}{1}{default}]",
-
 	"sa_player_penalty_info_no_active_mute": "➔ Mute [{green}✔{default}]",
 	"sa_player_penalty_info_no_active_gag": "➔ Gag [{green}✔{default}]",
 	"sa_player_penalty_info_no_active_silence": "➔ Silence [{green}✔{default}]",
 	"sa_player_penalty_info_no_active_warn": "➔ Aviso [{green}✔{default}]",
-
 	"sa_player_penalty_info": "===========================\nPenalidades do jogador para {darkred}{0}{default},\nNúmero de banimentos: {darkred}{1}{default}, Número de gags: {darkred}{2}{default}, Número de mutes: {darkred}{3}{default}, Número de silêncios: {darkred}{4}{default}, Número de avisos: {darkred}{5}{default}\nPenalidades ativas:\n{6}\nAvisos ativos:\n{7}\n===========================",
+	
 	"sa_admin_penalty_info": "{grey}Penalidades do jogador para {darkred}{0}{grey}, Banimentos: {darkred}{1}{grey}, Gags: {darkred}{2}{grey}, Mutes: {darkred}{3}{grey}, Silêncios: {darkred}{4}{grey}, Avisos: {darkred}{5}",
+	
 	"sa_player_ban_message_time": "Você foi banido por {darkred}{0}{default} por {darkred}{1}{default} minutos por {darkred}{2}{default}!",
 	"sa_player_ban_message_perm": "Você foi banido permanentemente por {darkred}{0}{default} por {darkred}{1}{default}!",
 	"sa_player_kick_message": "Você foi expulso por {darkred}{0}{default} por {darkred}{1}{default}!",
@@ -89,6 +88,7 @@
 	"sa_player_silence_message_perm": "Você foi silenciado permanentemente por {darkred}{0}{default} por {darkred}{1}{default}!",
 	"sa_player_warn_message_time": "Você foi advertido por {darkred}{0}{default} por {darkred}{1}{default} minutos por {darkred}{2}{default}!",
 	"sa_player_warn_message_perm": "Você foi advertido permanentemente por {darkred}{0}{default} por {darkred}{1}{default}!",
+	
 	"sa_admin_ban_message_time": "{darkred}{0}{default} baniu {darkred}{1}{default} por {darkred}{3}{default} minutos por {darkred}{2}{default}!",
 	"sa_admin_ban_message_perm": "{darkred}{0}{default} baniu {darkred}{1}{default} permanentemente por {darkred}{2}{default}!",
 	"sa_admin_kick_message": "{darkred}{0}{default} expulsou {darkred}{1}{default} por {darkred}{2}{default}!",
@@ -125,10 +125,14 @@
 	"sa_admin_vote_message": "{darkred}{0}{default} iniciou uma votação para {darkred}{1}{default}",
 	"sa_admin_vote_message_results": "{green}RESULTADOS DA VOTAÇÃO PARA {gold}{0}",
 	"sa_admin_vote_message_results_answer": "{green}{0} {default}- {gold}{1}",
+	
 	"sa_adminsay_prefix": "{darkred}ADMIN: {green}{0}{default}",
+	
 	"sa_adminchat_template_admin": "{green}(ADMIN) {darkred}{0}{default}: {darkred}{1}{default}",
 	"sa_adminchat_template_player": "{green}(JOGADOR) {darkred}{0}{default}: {darkred}{1}{default}",
+	
 	"sa_discord_log_command": "**{0}** executou o comando `{1}` no servidor `HOSTNAME`",
+	
 	"sa_menu_pluginsmanager_loaded": "{green}Ativado {default}plugin {green}{0}",
 	"sa_menu_pluginsmanager_unloaded": "{darkred}Desativado {default}plugin {darkred}{0}"
 }
